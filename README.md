@@ -21,7 +21,7 @@ Jumper wires
 
       Go to devices and create a new device with any name and click add.
       
-      Here, you need to configure the device to your application by clicking on manage credentials and copying the access token and pasting it into the           ACCESS_TOKEN variable defined in the LEDcontrol.ino file.
+      Here, you need to configure the device to your application by clicking on manage credentials and copying the access token and pasting it into the  ACCESS_TOKEN variable defined in the LEDcontrol.ino file.
       
       Go to dashboards and import light_control.json file.
       
