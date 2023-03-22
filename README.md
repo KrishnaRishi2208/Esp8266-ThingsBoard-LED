@@ -19,11 +19,13 @@ Jumper wires
 
 3)Then, go to https://demo.thingsboard.io/ and sign in to your account.
 
-      Go to devices and import the device.json file
-
-      Go to dashboards and import dashboard.json file
-
-      Here, you may need to configure the device to your application by clicking on manage credentials and copying the access token and pasting it into the       ACCESS_TOKEN variable defined in the LEDcontrol.ino file.
+      Go to devices and create a new device with any name and click add.
+      
+      Here, you need to configure the device to your application by clicking on manage credentials and copying the access token and pasting it into the           ACCESS_TOKEN variable defined in the LEDcontrol.ino file.
+      
+      Go to dashboards and import light_control.json file.
+      
+      In the dashboard, change the alias to the device you just created.
 
 4)Now, upload your code to esp8266 and control the LED from your ThingsBoard dashboard.
 
